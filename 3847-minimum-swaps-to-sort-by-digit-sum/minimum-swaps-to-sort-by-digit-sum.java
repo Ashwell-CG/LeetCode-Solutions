@@ -33,7 +33,7 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
             if (visited[i] || temp[i][2] == i) {
-            continue;
+                continue;
             }
 
             int j = i;
